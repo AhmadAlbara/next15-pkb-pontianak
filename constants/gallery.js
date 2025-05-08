@@ -1,9 +1,8 @@
 const GALLERY_ITEMS = [
-    { src: "/", 
-      alt: "Beranda" 
+    { 
+    src: "/", 
+    alt: "Beranda" 
     },
-   
-  ];
-  
-  export default GALLERY_ITEMS;
-  
+];
+
+export default GALLERY_ITEMS;
