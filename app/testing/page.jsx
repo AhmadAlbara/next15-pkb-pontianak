@@ -8,7 +8,7 @@ const page = () => {
      yxwsmdmjcdsmjds
 
 
-     Haloo iblis
+     <p>tedsfdsfksdjjh</p>
     </div>
   )
 }
