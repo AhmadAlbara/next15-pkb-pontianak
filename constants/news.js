@@ -5,7 +5,7 @@ const NEWS_ITEMS = [
         title: "Berita Terbaru: Pembangunan Infrastruktur", // Title of the news
         description: "Program pembangunan infrastruktur yang bertujuan untuk meningkatkan akses dan kualitas hidup masyarakat.", // Short description of the news
         date: "2025-05-08", // Date of the news
-        link: "/news/pembangunan-infrastruktur" // Link to the full news article
+        slug: "pembangunan-infrastruktur" // Slug for the news article
     },
     { 
         src: "/images/pendidikan.jpg", // Path to the image
@@ -13,7 +13,7 @@ const NEWS_ITEMS = [
         title: "Pendidikan Berkualitas di Seluruh Wilayah", // Title of the news
         description: "Meningkatkan fasilitas pendidikan untuk menciptakan generasi yang lebih berkualitas.", // Short description of the news
         date: "2025-05-07", // Date of the news
-        link: "/news/pendidikan-berkualitas" // Link to the full news article
+        slug: "pendidikan-berkualitas" // Slug for the news article
     },
     { 
         src: "/images/ketenagakerjaan.jpg", // Path to the image
@@ -21,7 +21,7 @@ const NEWS_ITEMS = [
         title: "Penyediaan Lapangan Kerja untuk Masyarakat", // Title of the news
         description: "Program penyediaan lapangan kerja untuk mengurangi pengangguran di kota Pontianak.", // Short description of the news
         date: "2025-05-06", // Date of the news
-        link: "/news/lapangan-kerja" // Link to the full news article
+        slug: "lapangan-kerja" // Slug for the news article
     }
 ];
 
