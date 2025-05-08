@@ -5,13 +5,17 @@ import Sidebar from "./Sidebar";
 
 const AppLayout = ({ children }) => {
   return (
-    <div className="">
+    <div className="flex flex-col min-h-screen">
+      {/* Navbar */}
       <Navbar />
-      <main className="md:px-10 md:flex md:justify-between">
-        {children}
 
+      {/* Main content */}
+      <main className="justify-evenly md:flex md:gap-8 md:px-10 py-6 max-w-7xl mx-auto">
+        <div className="">{children}</div>
         <Sidebar />
       </main>
+
+      {/* Footer */}
       <Footer />
     </div>
   );

@@ -18,10 +18,7 @@ const NAVBAR_ITEMS = [
     pathname: "/gallery",
     label: "Galeri",
   },
-  {
-    pathname: "/news",
-    label: "Berita",
-  },
+
   {
     pathname: "/contact",
     label: "Kontak ",
