@@ -1,10 +1,11 @@
+import Link from 'next/link'
 import React from 'react'
 
 const AppLogo = () => {
   return (
-    <div>
-      
-    </div>
+    <Link href={"/"}>
+      Logo
+    </Link>
   )
 }
 
