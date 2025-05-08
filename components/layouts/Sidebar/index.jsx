@@ -7,7 +7,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <aside className="w-full md:w-80 bg-gray-50 p-4  h-fit">
+    <aside className="w-full md:w-80    h-fit">
       <h2 className="text-lg  uppercase tracking-wide text-primary mb-4">
         Berita Terbaru
       </h2>

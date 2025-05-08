@@ -1,10 +1,12 @@
 // app/about/page.jsx
 import React from "react";
 import { VISI_ITEMS, MISI_ITEMS, STORY_ITEMS, PROFILE_ITEMS } from "@/constants/about";
+import BackButton from "@/components/elements/BackButton";
 
 const AboutPage = () => {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10 space-y-12">
+    <div className="max-w-4xl mx-auto   space-y-6">
+      <BackButton/>
       {/* PROFILE */}
       {PROFILE_ITEMS.map((item, index) => (
         <section key={index}>

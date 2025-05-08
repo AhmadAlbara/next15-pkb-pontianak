@@ -27,7 +27,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="w-full py-5 relative flex justify-between items-center md:max-w-7xl md:mx-auto">
+    <nav className="w-full py-5 relative flex justify-between items-center ">
       <AppLogo />
 
       <div className="space-x-4 hidden md:flex items-center">

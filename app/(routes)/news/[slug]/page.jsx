@@ -13,9 +13,9 @@ export default function NewsDetail({ params }) {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10 ">
+    <div className="max-w-4xl mx-auto px-4  ">
       <BackButton />
-      <h1 className="text-2xl font-bold my-2 ">{newsItem.title}</h1>
+      <h1 className="text-2xl font-bold my-6 ">{newsItem.title}</h1>
       <p className="text-sm text-gray-500 mb-4">
         {new Date(newsItem.date).toLocaleDateString("id-ID")}
       </p>

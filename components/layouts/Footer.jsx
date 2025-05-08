@@ -42,7 +42,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
+        <div className="text-center">
           <h2 className="text-lg font-semibold mb-4 uppercase tracking-wider">Tentang Kami</h2>
           <p className="text-white leading-relaxed">
             Kami adalah organisasi yang berkomitmen untuk membangun masyarakat yang lebih baik melalui pendidikan,

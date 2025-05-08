@@ -6,16 +6,18 @@ import Sidebar from "./Sidebar";
 const AppLayout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Navbar */}
-      <Navbar />
+      <div className="md:max-w-7xl md:mx-auto">
+        {/* Navbar */}
+        <Navbar />
 
-      {/* Main content */}
-      <main className="justify-evenly md:flex md:gap-8 md:px-10 py-6 max-w-7xl mx-auto">
-        <div className="">{children}</div>
-        <Sidebar />
-      </main>
+        {/* Main content */}
+        <main className="justify-evenly md:flex md:gap-8 py-6 ">
+          <div className="">{children}</div>
+          <Sidebar />
+        </main>
 
-      {/* Footer */}
+        {/* Footer */}
+      </div>
       <Footer />
     </div>
   );
