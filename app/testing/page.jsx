@@ -6,6 +6,9 @@ const page = () => {
     <div>
      <Buttons/>
      yxwsmdmjcdsmjds
+
+
+     Haloo iblis
     </div>
   )
 }
