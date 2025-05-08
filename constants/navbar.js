@@ -1,17 +1,30 @@
 const NAVBAR_ITEMS = [
-  { pathname: "/", label: "Home" },
+  { pathname: "/", 
+    label: "Beranda" 
+  },
   {
     pathname: "/about",
-    label: "About",
+    label: "Tentang Kami",
   },
   {
-    pathname: "/projects",
-    label: "Projects",
+    pathname: "/administrator",
+    label: "Pengurus",
   },
-
+  {
+    pathname: "/program ",
+    label: "Programs",
+  },
+  {
+    pathname: "/gallery",
+    label: "Galeri",
+  },
+  {
+    pathname: "/news",
+    label: "Berita",
+  },
   {
     pathname: "/contact",
-    label: "Contact",
+    label: "Kontak ",
   },
 ];
 
