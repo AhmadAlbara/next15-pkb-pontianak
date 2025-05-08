@@ -1,9 +1,11 @@
+import Buttons from '@/components/elements/Buttons'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      Halaman Testing Komponent
+     <Buttons/>
+     yxwsmdmjcdsmjds
     </div>
   )
 }
